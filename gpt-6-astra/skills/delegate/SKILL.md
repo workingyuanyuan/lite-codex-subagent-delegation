@@ -16,10 +16,9 @@ Choose among these configurations by task requirements:
 | Model ID | Reasoning effort | Task fit |
 | --- | --- | --- |
 | `gpt-6-luna` | `max` | Narrow, explicit, readily checked extraction, search, organization, or local edits. |
+| `gpt-6.1-terra` | `medium` | Visual interpretation, precise computer use, drafting or revising text from supplied material, and scoped code fixes with clear acceptance checks. |
 | `gpt-6.1-sol` | `medium` | Default for general delegated work: multi-step implementation, tests, and cross-file investigation. |
 | `gpt-6.1-sol` | `high` | Complex debugging, interacting dependencies, uncertain assumptions, or deep review. |
-
-Read [benchmark evidence](references/benchmarks.md) when tuning this policy.
 
 ## Delegate and integrate
 
